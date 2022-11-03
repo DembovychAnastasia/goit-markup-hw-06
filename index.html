@@ -474,11 +474,9 @@
                 />
                 <button type="submit" class="footer-btn">
                   Підписатися
-                  <div>
-                    <svg class="footer-icon" width="24px" height="24px">
-                      <use href="./images/icons.svg#icon-icon-send-1"></use>
-                    </svg>
-                  </div>
+                  <svg class="footer-icon" width="24px" height="24px">
+                    <use href="./images/icons.svg#icon-icon-send-1"></use>
+                  </svg>
                 </button>
               </div>
             </div>
@@ -520,6 +518,7 @@
                 name="user-tel"
                 class="modal-input"
                 title="+380 (96) 111 11 11"
+                id="user-tel"
                 placeholder
                 required
               />
@@ -532,7 +531,14 @@
           <div class="modal-field">
             <label for="user-email" class="input-label"> Пошта</label>
             <div class="input-wrap">
-              <input type="email" name="user-email" class="modal-input" placeholder required />
+              <input
+                type="email"
+                name="user-email"
+                class="modal-input"
+                placeholder
+                required
+                id="user-email"
+              />
               <svg class="modal-icon" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
