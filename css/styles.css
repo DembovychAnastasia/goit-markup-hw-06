@@ -973,3 +973,7 @@ section {
   background-origin: border-box;
   border-color: var(--accent-text-color);
 }
+
+.checkbox:focus + .checked-icon {
+  border-color: var(--accent-text-color);
+}
